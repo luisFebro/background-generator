@@ -1,3 +1,7 @@
+var _ = require('lodash');
+let array = [1, 23, 43, 443, 33, 666];
+console.log(_.without(array, 666));
+
 let endResultColor = document.querySelector(".endResultColor"),
     color1 = document.querySelector(".color1"),
     color2 = document.querySelector(".color2"),

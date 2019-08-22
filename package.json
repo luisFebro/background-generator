@@ -4,6 +4,7 @@
   "description": "pick a cool gradient combination for website background",
   "main": "script.js",
   "scripts": {
+    "browserify": "browserify script.js > bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/luisFebro/background-generator/issues"
   },
-  "homepage": "https://github.com/luisFebro/background-generator#readme"
+  "homepage": "https://github.com/luisFebro/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }

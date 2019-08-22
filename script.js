@@ -16,8 +16,6 @@ color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 
 // Copy to clipboard and tooltip
-
-
 function copyTextToClipboard(e) {
     const copyText = document.querySelector(".endResultColor"),
         tooltip = document.getElementById("myTooltip");

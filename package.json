@@ -1,0 +1,19 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "pick a cool gradient combination for website background",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisFebro/background-generator.git"
+  },
+  "author": "Luis Febro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisFebro/background-generator/issues"
+  },
+  "homepage": "https://github.com/luisFebro/background-generator#readme"
+}
